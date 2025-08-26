@@ -1,4 +1,4 @@
-const { greet, nicolle } = require('../app');
+const greet = require('../app');
 
 test('greets the user by name', () => {
   expect(greet('DevOps')).toBe('Ciao, DevOps!');
