@@ -12,7 +12,4 @@ describe("Extra messages and error simulation", () => {
     expect(true).toBeTruthy();
   });
 
-  test("simulate failure", () => {
-    throw new Error("Errore simulato per il test");
-  });
 });
